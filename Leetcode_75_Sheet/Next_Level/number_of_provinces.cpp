@@ -4,7 +4,6 @@ public:
         int n = isConnected.size();
         vector<bool> visited(n, false);
         int provinces = 0;
-
         for (int i = 0; i < n; i++) {
             if (!visited[i]) {
                 provinces++;

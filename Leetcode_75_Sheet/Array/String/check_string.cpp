@@ -32,7 +32,6 @@ public:
                 current += c;
             }
         }
-        
         return current;
     }
 };
